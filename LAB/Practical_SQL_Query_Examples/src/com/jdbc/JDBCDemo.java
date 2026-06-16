@@ -21,9 +21,9 @@ public class JDBCDemo {
 	                    "insert into stu values(?,?,?,?)");
 
 	            pst1.setInt(1, 3);
-	            pst1.setString(2, "Parth");
-	            pst1.setString(3, "chauhari");
-	            pst1.setString(4, "Surat");
+	            pst1.setString(2, "jenil");
+	            pst1.setString(3, "patel");
+	            pst1.setString(4, "ahmedabad");
 
 	            pst1.executeUpdate();
 
